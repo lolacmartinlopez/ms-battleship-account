@@ -41,10 +41,10 @@ public class Player {
 	private Integer shoot_numbers;
 
 	@Column(name = "number_winner_plays")
-	private String number_winner_plays;
+	private Integer number_winner_plays;
 
 	@Column(name = "number_total_plays")
-	private String number_total_plays;
+	private Integer number_total_plays;
 
 
 	public static Player builder(Player barco) {
